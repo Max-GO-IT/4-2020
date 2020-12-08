@@ -377,6 +377,7 @@ button:focus {
   letter-spacing: 0.03em;
   color: #757575;
   text-align: center;
+  padding-bottom: 84px;
 }
 
 .teams-name {
@@ -388,6 +389,9 @@ button:focus {
 }
 
 /*ПОСТОЯННЫЕ КЛИЕНТЫ СЕКЦИЯ*/
+.constant-clients {
+  padding-bottom: 94px;
+}
 .third-title {
   font-style: normal;
   font-weight: bold;
