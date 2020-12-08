@@ -98,10 +98,6 @@ Single-colored icons can be modified like so:
   width: 1.9345703125em;
 }
 
-.icon-instagram {
-  fill: #afb1b8;
-}
-
 /*ШАПКА САЙТА*/
 .header {
   height: 80px;
@@ -359,6 +355,7 @@ button:focus {
 }
 
 .icons-item .icon {
+  fill: #afb1b8;
   width: 20px;
   height: 20px;
 }
@@ -377,7 +374,6 @@ button:focus {
   letter-spacing: 0.03em;
   color: #757575;
   text-align: center;
-  padding-bottom: 84px;
 }
 
 .teams-name {
