@@ -151,6 +151,11 @@ Single-colored icons can be modified like so:
   color: #2196f3;
 }
 
+.icon-e-mail {
+  width: 16px;
+  height: 11px;
+}
+
 .header-address {
   font-style: normal;
   font-weight: 500;
@@ -169,9 +174,6 @@ Single-colored icons can be modified like so:
   display: flex;
   margin-top: 32px;
   margin-left: auto;
-}
-.address-item {
-  margin-left: 50px;
 }
 
 /*HERO СЕКЦИЯ*/
