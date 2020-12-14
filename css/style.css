@@ -148,12 +148,23 @@ Single-colored icons can be modified like so:
 }
 
 .nav-link-active {
+  position: relative;
   color: #2196f3;
 }
 
-.icon-e-mail {
-  width: 16px;
-  height: 11px;
+.nav-link-active:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: red;
+  bottom: 0;
+  left: 0;
+}
+
+.smartphone {
+  width: 10px;
+  height: 15px;
 }
 
 .header-address {
@@ -165,9 +176,18 @@ Single-colored icons can be modified like so:
   color: #757575;
   text-decoration: none;
 }
+.icon-e-mail {
+  width: 16px;
+  height: 11px;
+  margin-right: 10px;
+}
 .header-address:hover,
 .header-address:focus {
   color: #2196f3;
+}
+
+.header-address:hover .icon-e-mail {
+  fill: #2196f3;
 }
 
 .address-list {
