@@ -162,9 +162,11 @@ Single-colored icons can be modified like so:
   left: 0;
 }
 
-.smartphone {
+.icon-smartphone {
   width: 10px;
   height: 15px;
+  fill: #757575;
+  margin-right: 10px;
 }
 
 .header-address {
@@ -189,11 +191,17 @@ Single-colored icons can be modified like so:
 .header-address:hover .icon-e-mail {
   fill: #2196f3;
 }
+.header-address:hover .icon-smartphone {
+  fill: #2196f3;
+}
 
 .address-list {
   display: flex;
   margin-top: 32px;
   margin-left: auto;
+}
+.header-telephone {
+  margin-left: 30px;
 }
 
 /*HERO СЕКЦИЯ*/
