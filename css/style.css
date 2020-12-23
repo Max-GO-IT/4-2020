@@ -652,11 +652,14 @@ button:focus {
   letter-spacing: 0.06em;
 }
 
-.portfolio-link:hover .portfolio-description {
+.portfolio-link {
   display: block;
+  text-decoration: none;
+}
+
+.portfolio-link:hover .portfolio-description {
   transition: all 0.4s ease-out;
   transform: translateY(0%); /*кінцева позиція*/
-  text-decoration: none;
 }
 
 .portfolio-work {
