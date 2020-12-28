@@ -43,19 +43,23 @@ Single-colored icons can be modified like so:
 ========================================== */
 
 .icon-vector {
-  width: 0.9423828125em;
+  width: 65px;
+  height: 70px;
 }
 
 .icon-vector-1 {
-  width: 0.9716796875em;
+  width: 67px;
+  height: 70px;
 }
 
 .icon-vector-2 {
-  width: 1.2958984375em;
+  width: 70px;
+  height: 54px;
 }
 
 .icon-vector-3 {
-  width: 0.9013671875em;
+  width: 55px;
+  height: 61px;
 }
 
 .icon-facebook {
