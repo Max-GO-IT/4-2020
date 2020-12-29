@@ -78,29 +78,29 @@ Single-colored icons can be modified like so:
   width: 7.4208984375em;
 }
 
-.icon-logo_1 {
-  width: 44px;
-  height: 49px;
-}
-
 .icon-logo_2 {
-  width: 0.76953125em;
+  width: 40px;
+  height: 52px;
 }
 
 .icon-logo_3 {
-  width: 0.953125em;
+  width: 41px;
+  height: 43px;
 }
 
 .icon-logo_4 {
-  width: 1.8603515625em;
+  width: 80px;
+  height: 42px;
 }
 
 .icon-logo_5 {
-  width: 1.2548828125em;
+  width: 59px;
+  height: 47px;
 }
 
 .icon-logo_6 {
-  width: 1.9345703125em;
+  width: 88px;
+  height: 45px;
 }
 
 /*ШАПКА САЙТА*/
@@ -437,11 +437,7 @@ button:focus {
   padding-top: 50px;
 }
 
-.icons-list-icon {
-  fill: #afb1b8;
-}
-
-.icons-list li:hover .icons-list-icon {
+.icons-list li:hover {
   fill: #2196f3;
 }
 
