@@ -13,7 +13,7 @@ html {
 *::after {
   box-sizing: inherit;
 }
-/*картинка не може бути більша ніж ширина блока*/
+
 img {
   max-width: 100%;
   height: auto;
@@ -34,14 +34,6 @@ img {
   fill: currentColor;
 }
 
-/* ==========================================
-Single-colored icons can be modified like so:
-.icon-name {
-  font-size: 32px;
-  color: red;
-}
-========================================== */
-
 .icon-vector {
   width: 65px;
   height: 70px;
@@ -60,22 +52,6 @@ Single-colored icons can be modified like so:
 .icon-vector-3 {
   width: 55px;
   height: 61px;
-}
-
-.icon-facebook {
-  width: 0.5498046875em;
-}
-
-.icon-facebook-white {
-  width: 0.5498046875em;
-}
-
-.icon-Web-Studio {
-  width: 7.599609375em;
-}
-
-.icon-Web-Studio1 {
-  width: 7.4208984375em;
 }
 
 /*ШАПКА САЙТА*/
@@ -430,10 +406,6 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.logo-item {
-  width: 90px;
-  height: 52px;
 }
 
 /*ФУТЕР СЕКЦИЯ*/
