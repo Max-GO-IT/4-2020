@@ -78,31 +78,6 @@ Single-colored icons can be modified like so:
   width: 7.4208984375em;
 }
 
-.icon-logo_2 {
-  width: 40px;
-  height: 52px;
-}
-
-.icon-logo_3 {
-  width: 41px;
-  height: 43px;
-}
-
-.icon-logo_4 {
-  width: 80px;
-  height: 42px;
-}
-
-.icon-logo_5 {
-  width: 59px;
-  height: 47px;
-}
-
-.icon-logo_6 {
-  width: 88px;
-  height: 45px;
-}
-
 /*ШАПКА САЙТА*/
 .header {
   height: 80px;
@@ -456,6 +431,11 @@ button:focus {
   align-items: center;
   justify-content: center;
 }
+.logo-item {
+  width: 90px;
+  height: 52px;
+}
+
 /*ФУТЕР СЕКЦИЯ*/
 .studio {
   color: #fff;
