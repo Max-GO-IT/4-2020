@@ -392,7 +392,7 @@ button:focus {
   fill: #2196f3;
 }
 
-.icons-list li:hover .icons-list-item {
+.icons-list li:hover .icons-list-item .icon-logo {
   border: 1px solid #2196f3;
 }
 
@@ -406,6 +406,11 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.icon-logo {
+  fill: #afb1b8;
+  width: 44px;
+  height: 49px;
 }
 
 /*ФУТЕР СЕКЦИЯ*/
