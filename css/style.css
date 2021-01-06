@@ -392,8 +392,14 @@ button:focus {
   fill: #2196f3;
 }
 
-.icons-list li:hover .icons-list-item .icon-logo {
+/* <a> посилання */
+.icons-list li:hover .icons-list-item {
   border: 1px solid #2196f3;
+}
+
+/* иконка svg */
+.icons-list li:hover .icon-logo {
+  fill: #2196f3; /* моя строка */
 }
 
 .icons-list-item {
@@ -411,6 +417,15 @@ button:focus {
   fill: #afb1b8;
   width: 44px;
   height: 49px;
+}
+
+.icon-logo-company-1 {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-logo-company-1 {
+  width: 60px;
 }
 
 /*ФУТЕР СЕКЦИЯ*/
