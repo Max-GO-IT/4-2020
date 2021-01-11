@@ -388,20 +388,6 @@ button:focus {
   padding-top: 50px;
 }
 
-.icons-list li:hover {
-  fill: #2196f3;
-}
-
-/* <a> посилання */
-.icons-list li:hover .icons-list-item {
-  border: 1px solid #2196f3;
-}
-
-/* иконка svg */
-.icons-list li:hover .icon-logo {
-  fill: #2196f3; /* моя строка */
-}
-
 .icons-list-item {
   border: 1px solid #afb1b8;
   display: inline-block;
@@ -415,17 +401,39 @@ button:focus {
 }
 .icon-logo {
   fill: #afb1b8;
+}
+.icons-list li:hover {
+  fill: #2196f3;
+}
+.icons-list li:hover .icons-list-item {
+  border: 1px solid #2196f3;
+}
+.icons-list li:hover .icon-logo {
+  fill: #2196f3;
+}
+.icon-logo_1 {
   width: 44px;
   height: 49px;
 }
-
-.icon-logo-company-1 {
-  width: 20px;
-  height: 20px;
+.icon-logo_2 {
+  width: 40px;
+  height: 52px;
 }
-
-.icon-logo-company-1 {
-  width: 60px;
+.icon-logo_3 {
+  width: 41px;
+  height: 43px;
+}
+.icon-logo_4 {
+  width: 80px;
+  height: 42px;
+}
+.icon-logo_5 {
+  width: 59px;
+  height: 47px;
+}
+.icon-logo_6 {
+  width: 89px;
+  height: 45px;
 }
 
 /*ФУТЕР СЕКЦИЯ*/
